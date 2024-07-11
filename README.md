@@ -2,6 +2,23 @@
 
 Welcome to the Food Delivery App Frontend, a React-based web application that provides users with a seamless experience to browse and order food from various restaurants. The app fetches live data from Swiggy's API, ensuring that users always have up-to-date information on available restaurants, menus, and promotions.
 
+## UI Screenshots
+
+Here are some screenshots of the user interface:
+
+### Home Page
+
+![Home Page](images/1.png)
+
+### Restaurant Page
+
+![Restaurant Page](images/2.png)
+![Restaurant Page](images/3.png)
+
+### Cart Page
+
+![Cart Page](images/4.png)
+
 ## Features
 
 - Browse a variety of restaurants and cuisines.
@@ -21,29 +38,26 @@ Welcome to the Food Delivery App Frontend, a React-based web application that pr
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/food-delivery-app-frontend.git
-    cd food-delivery-app-frontend
-    ```
+   ```bash
+   git clone https://github.com/your-username/food-delivery-app-frontend.git
+   cd food-delivery-app-frontend
+   ```
 
 2. Install the dependencies:
 
-    ```bash
-    npm install
-    ```
-
+   ```bash
+   npm install
+   ```
 
 ## Usage
 
 1. Start the development server:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm run dev
+   ```
 
 2. Open your browser and navigate to `http://localhost:3000`.
-
-
 
 ## Contact
 
