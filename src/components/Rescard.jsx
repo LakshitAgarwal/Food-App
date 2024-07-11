@@ -1,9 +1,22 @@
 import { resImage_URL } from "../utils/constants";
+import { motion } from "framer-motion";
 
 const Rescard = (props) => {
   const { resData } = props;
   return (
-    <div className="cardDiv">
+    <motion.div
+      initial={{ y: 100, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        delay: 0.2,
+        y: { type: "spring", stiffness: 60 },
+        opacity: { duration: 0.2 },
+        ease: "easeIn",
+        duration: 1,
+      }}
+      className="cardDiv"
+    >
       <div className="imgDiv">
         <img
           className="foodImg"
@@ -20,7 +33,7 @@ const Rescard = (props) => {
         <h4>{resData.info.cuisines.join(", ")}</h4>
         <h4>{resData.info.areaName}</h4>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
