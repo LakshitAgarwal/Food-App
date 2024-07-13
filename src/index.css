@@ -79,8 +79,8 @@ a {
 
 .cardDiv:hover {
   cursor: pointer;
-  transform: scale(0.95);
-  transition: transform 0.2s;
+  transform: scale(0.95) !important;
+  transition: transform 0.2s !important;
 }
 
 .content h4 {
